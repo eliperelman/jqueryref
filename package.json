@@ -1,0 +1,24 @@
+{
+  "name": "jqueryref",
+  "version": "0.1.0",
+  "description": "jQuery API Reference and Documentation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eliperelman/jqueryref.git"
+  },
+  "keywords": [
+    "jquery",
+    "reference",
+    "api",
+    "docs"
+  ],
+  "author": "Eli Perelman",
+  "license": "BSD",
+  "dependencies": {
+  	"lodash": ">=0.3.2",
+  	"grunt": ">=0.3.11",
+  	"github-flavored-markdown": ">=1.0.1"
+  }
+}
