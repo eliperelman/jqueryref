@@ -15,3 +15,8 @@ h6 code, h6 pre {
 h1 {
 	margin-bottom: 20px;
 }
+
+pre,
+.cm-s-ambiance .cm-property {
+	font-size: 18px;
+}
