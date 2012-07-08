@@ -48,12 +48,29 @@
 			<div class="row-fluid">
 				<h1>jQuery.ajax</h1>
 
-<h2>Make an HTTP request asynchronously without refreshing the page (e.g. a postback)</h2>
+<h3>Make an HTTP request asynchronously without refreshing the page (e.g. a postback)</h3>
 
 <div class="highlight"><pre lang="javascript">jQuery.ajax( settings );
 </pre></div>
 
 <p><span class="label label-info">Version 1.0</span></p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Argument</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>settings</td>
+            <td>
+                An object that contains key/value pairs of configuration data for this Ajax request. All settings are optional. A default can be set up globally for any option by using [`$.ajaxSetup()`](/jQuery.ajaxSetup).
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 <div class="highlight"><pre lang="javascript">jQuery.ajax( url, /* optional: */ settings );
 </pre></div>
