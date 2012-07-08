@@ -6,13 +6,32 @@
 	};
 
 
+
+
 	$(function () {
 		$('.highlight [lang]').each(function () {
+
+
 			var el = $(this);
 			var lang = el.attr('lang');
-			var content = el.text();
+			var code = el.html();
 
-			CodeMirror.runMode(content, mimes[lang], el[0]);
+			el.empty();
+
+			CodeMirror(this, {
+				value: code,
+				mode: lang,
+				lineNumbers: $this.is('.inline') ? false : true,
+				readOnly: true
+			});
+
+
+
+			// var el = $(this);
+			
+			// var content = el.text();
+
+			// CodeMirror.runMode(content, mimes[lang], el[0]);
 		});
 	});
 
