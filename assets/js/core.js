@@ -1,12 +1,12 @@
 (function () {
 
 	$(function () {
-		$('.highlight [lang]').each(function () {
+		$('pre code[class*="lang-"]').each(function () {
 			var el = $(this).addClass('cm-s-ambiance');
-			var lang = el.attr('lang');
-			var content = el.html();
+			// var lang = el.attr('lang');
+			// var content = el.html();
 
-			CodeMirror.runMode(content, { name: lang }, this);
+			// CodeMirror.runMode(content, { name: lang }, this);
 		});
 	});
 
