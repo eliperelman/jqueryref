@@ -5,44 +5,38 @@
 <p><span class="label label-info">Version 1.0</span>
 
 </p>
-<dl>
-    <dt>settings</dt>
-    <dd>
-        An object that contains key/value pairs of configuration data for this Ajax request. All settings are optional. You can set and change the global default for any option by using <a href="/jQuery.ajaxSetup"><code>$.ajaxSetup()</code></a>.<br/><br/>
+<p><strong>settings</strong> <span class="label">Default: depends on <em>dataType</em></span>  <span class="label label-info">Accepts: Object</span>
 
-        <table class="table table-striped table-bordered">
-            <thead>
-                <tr>
-                    <th>Setting</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><code>accepts</code></td>
-                    <td>
-                        <span class="label">Default: depends on <em>dataType</em></span><br/>
-                        <span class="label label-info">Accepts: Object</span><br/><br/>
+</p>
+<p>An object that contains key/value pairs of configuration data for this Ajax request. All settings are optional. You can set and change the global default for any option by using <a href="/jQuery.ajaxSetup"><code>$.ajaxSetup()</code></a>.
 
-                        Modify the mapping of content types to <code>dataTypes</code>.<br/><br/>
+</p>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Setting</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>accepts</code></td>
+            <td>
+                Modify the mapping of content types to <code>dataTypes</code>.<br/><br/>
 
-<code>javascript
-$.ajax({
-    accepts: {
-        json: &quot;text/javascript, application/json&quot;,
-        xml: &quot;text/xml&quot;
-    }
-});
-</code>
+                <code>javascript
+                $.ajax({
+                    accepts: {
+                        json: &quot;text/javascript, application/json&quot;,
+                        xml: &quot;text/xml&quot;
+                    }
+                });
+                </code>
 
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </dd>
-</dl>
-
-
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 <hr>
 <pre><code class="lang-javascript">jQuery.ajax( url, /* optional: */ settings );</code></pre>
