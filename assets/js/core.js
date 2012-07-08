@@ -7,13 +7,12 @@
 
 
 	$(function () {
-		$('.highlight').each(function () {
+		$('.highlight [lang]').each(function () {
 			var el = $(this);
-			var langEl = el.find('[lang]');
-			var lang = langEl.attr('lang');
-			var content = langEl.text();
+			var lang = el.attr('lang');
+			var content = el.text();
 
-			CodeMirror.runMode(content, mimes[lang], langEl[0]);
+			CodeMirror.runMode(content, mimes[lang], el[0]);
 		});
 	});
 
