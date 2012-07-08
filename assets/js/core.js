@@ -6,7 +6,7 @@
 			var lang = el.attr('lang');
 			var content = el.html();
 
-			CodeMirror.runMode(content, mimes[lang], this);
+			CodeMirror.runMode(content, { name: lang }, this);
 		});
 	});
 
