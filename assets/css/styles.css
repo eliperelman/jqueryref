@@ -24,3 +24,8 @@ pre,
 .cm-s-ambiance .cm-property {
 	font-size: 18px;
 }
+
+.highlight {
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+}
