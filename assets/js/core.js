@@ -2,7 +2,7 @@
 
 	$(function () {
 		$('.highlight [lang]').each(function () {
-			var el = $(this);
+			var el = $(this).addClass('cm-s-ambiance');
 			var lang = el.attr('lang');
 			var content = el.html();
 
