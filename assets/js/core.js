@@ -2,7 +2,9 @@
 
 	$(function () {
 		$('pre code[class*="lang-"]').each(function () {
-			var el = $(this).addClass('cm-s-ambiance');
+			var el = $(this);
+
+			el.closest('pre').addClass('cm-s-ambiance');
 			// var lang = el.attr('lang');
 			// var content = el.html();
 
