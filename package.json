@@ -18,8 +18,10 @@
   "license": "BSD",
   "dependencies": {
   	"lodash": ">=0.3.2",
-  	"grunt": ">=0.3.11",
-  	"github-flavored-markdown": ">=1.0.1",
-  	"gift": ""
-  }
+  	"grunt": "",
+  	"marked": "",
+  	"shelljs": "",
+  	"cheerio": ""
+  },
+  "private": true
 }
