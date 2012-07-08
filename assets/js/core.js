@@ -21,7 +21,7 @@
 			CodeMirror(this, {
 				value: code,
 				mode: lang,
-				lineNumbers: !el.is('.inline'),
+				lineNumbers: false,
 				readOnly: true
 			});
 
