@@ -11,3 +11,7 @@ h5 code, h5 pre,
 h6 code, h6 pre {
 	font-size: inherit;
 }
+
+h1 {
+	margin-bottom: 20px;
+}
