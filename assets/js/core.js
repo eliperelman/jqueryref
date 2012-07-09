@@ -1,8 +1,7 @@
 (function () {
-
-	$(function () {
-		$('pre code[class*="lang-"]').each(function () {
-			var el = $(this);
+	var syntaxHighlight = function () {
+		$('pre code[class*="lang-"]:not(.highlighted)').each(function () {
+			var el = $(this).addClass('highlighted');
 			var content = el.html();
 			var lang = 'javascript';
 
@@ -10,6 +9,10 @@
 
 			CodeMirror.runMode(content, { name: lang }, this);
 		});
+	}
+
+	$(function () {
+		syntaxHighlight();
 	});
 
 })();
