@@ -28,6 +28,12 @@ pre code,
 	font-size: 18px;
 }
 
+table pre,
+table pre code,
+table .cm-s-ambiance .cm-property {
+	font-size: 14px;
+}
+
 #main hr {
 	border-top: 3px dotted #3a87ad;
 }
