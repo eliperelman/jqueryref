@@ -74,20 +74,22 @@
             <td>
                 accepts
 
-                <span class="label">Default: based on _dataType_ </span>
+                <span class="label">Default: based on `dataType`</span>
             </td>
             <td>
 
                 Modify the mapping of content types to `dataTypes`.<br/><br/>
 
-                ```javascript
-                $.ajax({
-                    accepts: {
-                        json: "text/javascript, application/json",
-                        xml: "text/xml"
-                    }
-                });
-                ```
+
+<pre><code class="javascript">$.ajax({
+    accepts: {
+        json: "text/javascript, application/json",
+        xml: "text/xml"
+    }
+});
+</code></pre>
+
+
 
             </td>
         </tr>
