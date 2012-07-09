@@ -23,21 +23,23 @@
     </thead>
     <tbody>
         <tr>
-            <td>accepts</td>
             <td>
-                <span class="label">Default: depends on _dataType_</span>
+                accepts
+
+                <span class="label">Default: based on _dataType_ </span>
+            </td>
+            <td>
+
                 Modify the mapping of content types to `dataTypes`.<br/><br/>
 
-
-<pre><code class="javascript">$.ajax({
-    accepts: {
-        json: "text/javascript, application/json",
-        xml: "text/xml"
-    }
-});
-</code></pre>
-
-
+                ```javascript
+                $.ajax({
+                    accepts: {
+                        json: "text/javascript, application/json",
+                        xml: "text/xml"
+                    }
+                });
+                ```
 
             </td>
         </tr>
