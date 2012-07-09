@@ -1,14 +1,12 @@
 (function () {
 	var syntaxHighlight = function () {
-		$('pre code:not(.highlighted)').each(function () {
+		$('div:not(.highlighted) pre code').each(function () {
 			var el = $(this);
 			var content = el.html();
 			var lang = el.attr('class');
 
-			el
-				.addClass('highlighted')
-				.closest('pre')
-					.addClass('cm-s-ambiance');
+			el.closest('pre')
+				.wrap('<div class="highlighted cm-s-ambiance" />');
 
 			CodeMirror.runMode(content, { name: lang }, this);
 		});
