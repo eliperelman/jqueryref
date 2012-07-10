@@ -40,7 +40,8 @@ h5 {
 
 pre {
 	white-space: pre;
-	overflow: scroll;
+	word-wrap: normal;
+	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 }
 
