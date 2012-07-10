@@ -33,9 +33,14 @@ h4 {
 }
 
 h5 {
-	border-top: 1px solid #eee;
+	border-top: 1px dotted #eee;
 	margin-top: 20px;
 	padding: 4px 0;
+}
+
+pre {
+	white-space: normal;
+	overflow: auto;
 }
 
 pre,
