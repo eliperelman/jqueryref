@@ -6,7 +6,8 @@
 			var lang = el.attr('class');
 
 			el.closest('pre')
-				.wrap('<div class="highlighted cm-s-ambiance" />');
+				.addClass('cm-s-ambiance')
+				.wrap('<div class="highlighted" />');
 
 			CodeMirror.runMode(content, { name: lang }, this);
 		});
