@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>jQuery.ajax</title>
+		<title>jQuery API</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="jQuery API Documentation and Reference">
 		<meta name="author" content="Eli Perelman">
@@ -46,57 +46,13 @@
 
 		<div class="container-fluid">
 			<div class="row-fluid" id="main">
-				<h1 id="jqueryajax">jQuery.ajax</h1>
+				<h1 id="jqueryapi">jQuery API</h1>
 
-<h2 id="makeanhttprequestasynchronouslywithoutrefreshingthepageegapostback">Make an HTTP request asynchronously without refreshing the page (e.g. a postback)</h2>
+<h2 id="browseandsearchforfunctionalityinjquery">Browse and Search for functionality in jQuery</h2>
 
-<hr />
+<h3 id="jqueryajax">jQuery.ajax</h3>
 
-<p><span class="label label-info">Version 1.0</span></p>
-
-<pre><code class="javascript">jQuery.ajax( settings );
-</code></pre>
-
-<h4 id="settings">settings</h4>
-
-<p><span class="label label-inverse">Accepts: Object</span></p>
-
-<p>An object that contains key/value pairs of configuration data for this Ajax request. All settings are optional. You can set and change the global default for any option by using <a href="/jQuery.ajaxSetup"><code>$.ajaxSetup()</code></a>.</p>
-
-<h5 id="accepts">accepts</h5>
-
-<p><span class="label">Default: varies</span></p>
-
-<p><span class="label label-inverse">Accepts: Object</span></p>
-
-<p>Modify the mapping of content types to <code>dataTypes</code></p>
-
-<pre><code class="javascript">$.ajax({
-    accepts: {
-        json: "text/javascript, application/json",
-        xml: "text/xml"
-    }
-});
-</code></pre>
-
-<h5 id="async">async</h5>
-
-<p><span class="label">Default: true</span></p>
-
-<p><span class="label label-inverse">Accepts: Boolean</span></p>
-
-<p><span class="label label-warning">Deprecated: 1.8</span></p>
-
-<p>The default setting of <code>async: true</code> will trigger an Ajax request to execute without blocking the JavaScript execution thread. Any proceeding JavaScript after the request has started will be executed immediately. The browser will wait for the Ajax request to complete before executing any post-request operations.</p>
-
-<p>Setting a request to <code>async: false</code> will cause the request to execute synchronously, i.e. block the execution of all other JavaScript until the request is complete, possible causing the browser to &quot;hang&quot; until finished. Because of this blocking, using <code>async: false</code> is not recommended. As of jQuery 1.8, use of <code>async: false</code> is deprecated.</p>
-
-<hr />
-
-<p><span class="label label-info">Version 1.5</span></p>
-
-<pre><code class="javascript">jQuery.ajax( url, /* optional: */ settings );
-</code></pre>
+<p>Make an HTTP request asynchronously without refreshing the page (e.g. a postback)</p>
 			</div>
 			<hr />
 
