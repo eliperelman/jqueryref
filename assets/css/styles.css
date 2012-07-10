@@ -46,7 +46,7 @@ table .cm-s-ambiance .cm-property {
 	font-size: 14px;
 }
 
-#main {
+#main, #main p {
 	font-size: 16px;
 	line-height: 1.5;
 }
