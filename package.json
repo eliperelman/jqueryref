@@ -19,9 +19,11 @@
   "dependencies": {
   	"lodash": ">=0.3.2",
   	"grunt": "",
+  	"grunt-css": "",
   	"marked": "",
   	"shelljs": "",
-  	"cheerio": ""
+  	"cheerio": "",
+  	"showdown": ""
   },
   "private": true
 }
