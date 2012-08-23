@@ -1,1 +1,1 @@
-# w00t! jQuery Reference and Alternate Documentation
+# jQuery Reference and Documentation

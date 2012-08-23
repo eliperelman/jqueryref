@@ -3,7 +3,7 @@
 ## Browse and Search for functionality in jQuery
 
 <% _.forEach(pages, function (page) { %>
-### <%=page.title %>
+[<%=page.title %>](/jqueryref/<%=page.title %>)
 
 <%=page.description %>
 

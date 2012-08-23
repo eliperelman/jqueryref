@@ -65,3 +65,6 @@ table .cm-s-ambiance .cm-property {
 #main hr {
 	border-top: 3px dotted #3a87ad;
 }
+
+.fiddle { display: none; }
+.fiddle.embedded { display: block; }
