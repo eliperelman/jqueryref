@@ -1,0 +1,39 @@
+<h1 id="addclass">addClass</h1>
+
+<h2 id="addoneormorecssclassestoallcurrentlyselectedelements">Add one or more CSS classes to all currently selected elements</h2>
+
+<hr />
+
+<p>The <code>addClass</code> jQuery object method will add one or more CSS classes to any elements in the jQuery collection.</p>
+
+<hr />
+
+<p><span class="label label-info">Version 1.0</span></p>
+
+<pre><code class="javascript">.addClass( classes )
+</code></pre>
+
+<h4 id="classes">classes</h4>
+
+<p><span class="label label-inverse">Accepts: String</span></p>
+
+<p>A string representing a CSS class, or a space-delimited string of CSS classes</p>
+
+<div class="fiddle" id="------------"></div>
+
+<hr />
+
+<p><span class="label label-info">Version 1.4</span></p>
+
+<pre><code class="javascript">.addClass( function ( index, currentClass ) )
+</code></pre>
+
+<h4 id="functionindexcurrentclass">function ( index, currentClass )</h4>
+
+<p><span class="label label-inverse">Accepts: function &lt;- Number, String</span></p>
+
+<p>A function to execute for each element in the current collection. This function will be passed an <em>index</em> which is the numeric index of the current element in relation to the jQuery collection. The function will also be passed a space-delimited string of CSS classes of the current element. Return a space-delimited string of CSS classes to have them added to the classes of the current element.</p>
+
+<div class="fiddle" id="---------------"></div>
+
+<hr />
