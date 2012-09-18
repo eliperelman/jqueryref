@@ -4,6 +4,12 @@
 
 ---
 
+The jQuery object method `add` constructs a new jQuery object by joining given elements with an already existing jQuery object. You can pass almost anything to `add` that the jQuery function accepts, including selectors, DOM elements, and strings of markup. The new jQuery object returned from `add` can be chained upon just like other jQuery objects, with the methods acting on the new object. Since calling `add` returns a new jQuery object, it will not modify the original object. Beginning with jQuery 1.4, the jQuery collection from `add` will always be in document order rather than just being placed on the end of the current collection.
+
+_Note: To undo the add operation, you can move back in the current jQuery stack by calling `end`, or using `not` to remove the elements from the current object._
+
+---
+
 <span class="label label-info">Version 1.0</span>
 
 ```javascript
